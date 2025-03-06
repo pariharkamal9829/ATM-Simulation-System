@@ -28,9 +28,10 @@ public class App extends Application {
     private void initializeAccounts() {
         accounts = new ArrayList<>();
         // Add some sample accounts
-        accounts.add(new Account("123456789", "1234", 1000.0, "John Doe"));
-        accounts.add(new Account("987654321", "4321", 2500.0, "Jane Smith"));
-        accounts.add(new Account("111222333", "5678", 500.0, "Bob Johnson"));
+        accounts.add(new Account("123456789", "1234", 1000.0, "Kamlesh"));
+        accounts.add(new Account("9887", "9887", 2500.0, "Rahul"));
+        accounts.add(new Account("1111", "1111", 500.0, "Bhavesh"));
+        accounts.add(new Account("0000", "0000", 500.0, "Kunal"));
     }
 
     public static void showLoginScreen() {
